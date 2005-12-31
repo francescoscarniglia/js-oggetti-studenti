@@ -7,9 +7,9 @@
 // Riprodurre la piccola chat fatta insieme durante la lezione utilizzando handlerbars.
 
 var studente = {
-  nome : [' Francesco'],
-  cognome : [' Scarniglia'],
-  eta : [' 32']
+  nome : ' Francesco',
+  cognome : ' Scarniglia',
+  eta : ' 32'
 }
 
 //console.log(studente.nome ,studente.cognome, studente.eta);
