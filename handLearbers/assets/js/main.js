@@ -51,14 +51,17 @@ $(document).ready(function () {
 
   ];
 
-
   for(var i= 0; i < newMessage.length; i++) {
     console.log(newMessage[i].text + ' ' + newMessage[i].time);
+    var item = newMessage[i];
+    var dataMex = {
+      text : item.text,
+      time : item.time
+    }
 
-    var html = template(newMessage);
+    var output = template(dataMex);
 
-
-    chat.append(html);
+    chat.append(output);
 
   }
 
