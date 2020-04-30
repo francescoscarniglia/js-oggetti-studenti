@@ -10,7 +10,28 @@
 </head>
 <body>
 
+<h1>My chat</h1>
 
+<div>
+  <input type="text" class='msg-input'>
+  <button class="msg-btn">Invia</button>
+</div>
+
+<main class="chat">
+
+</main>
+
+<!-- TEMPLATE MESSAGE -->
+<script id="entry-template" type="text/x-handlebars-template">
+  <div class="message {{ userClass}}">
+    <div class="msg-txt">
+      {{text}}
+    </div>
+    <div class="msg-time">
+      {{time}}
+    </div>
+  </div>
+</script>
 
 
 
