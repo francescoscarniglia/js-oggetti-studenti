@@ -32,6 +32,19 @@ $(document).ready(function () {
 
     input.val('');
 
+    // risposta automatica
+    setTimeout(function() {
+      //alert('ciao')
+      var data = {
+        text : 'Ciao',
+        time : '18:31',
+        userClass : 'received'
+      };
+      var html = template(data);
+      
+      chat.append(html);
+    }, 1000);
+
   });
 
 
