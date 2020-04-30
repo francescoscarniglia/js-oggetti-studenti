@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/custom.css">
+    <meta name="google" value="notranslate">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>handLebars basic / Live Coding in classroom</title>
+</head>
+<body>
+
+<!-- qui compariranno i miei articoli con le proprietà di template -->
+<main class="articles"></main>
+
+<!-- TEMPLATES -->
+<script id="entry-template" type="text/x-handlebars-template">
+  <article class="entry {{myClass}}">
+      <header>
+        <h2>{{title}}</h2>
+      </header>
+      <div class="body">
+        {{body}}
+      </div>
+      <footer>
+        Qui il footer
+      </footer>
+  </article>
+
+</script>
+
+
+<script src="assets/js/handlebars.min-v4.7.6.js">
+
+</script>
+
+<script src="assets/js/jquery-3.5.0.min.js">
+</script>
+
+<script src="assets/js/main.js">
+</script>
+</body>
+</html>
