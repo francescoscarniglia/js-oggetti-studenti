@@ -13,6 +13,8 @@ var studente = {
 }
 
 //console.log(studente.nome ,studente.cognome, studente.eta);
+//console.log(studente['nome'], studente['cognome'], studente['eta']);
+
 
 for(var key in studente) {
   console.log(key + ':' + studente[key]);
